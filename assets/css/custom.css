@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap");
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+h1 {
+  font-size: 100px;
+  font-family: "Work Sans";
+  font-weight: bold;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+#hidden-container {
+  z-index: 100;
+  background-color: #595358; }
+  #hidden-container h1 {
+    color: #313628; }
+
+#visible-container {
+  z-index: 50;
+  background-color: #A4AC96; }
+  #visible-container h1 {
+    color: #CADF9E; }
+
+.circle-clip {
+  -webkit-mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><circle cx="125" cy="125" r="125"/></svg>') no-repeat;
+  -webkit-mask-size: 300px 300px;
+  -webkit-mask-position: var(--clip-position);
+  mask: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" version="1.1"><circle cx="125" cy="125" r="125"/></svg>') no-repeat;
+  mask-size: 300px 300px;
+  mask-position: var(--clip-position); }
+
+/*# sourceMappingURL=custom.css.map */
