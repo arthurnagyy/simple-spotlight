@@ -10,6 +10,7 @@ A simple spotlight effect, following the cursor, that reveals underlying content
 ### Supported Browsers
 
 Tested it in Firefox, Chrome and Edge. Seems to be working perfectly in all 3 of them.
+Does not work in Internet Explorer.
 
 ### How it works and why
 We stack 2 `div`s on top of each other. In my case `div#hidden-container` which will be on top and not visible. `div#visible-container` the container that's visible by default.
